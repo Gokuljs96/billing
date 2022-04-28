@@ -70,11 +70,11 @@ li:hover{
   color: #fbf8f8;
   
 }
-a:hover{
+li a:hover{
   background-color: #62d852;
   color: #181616;
 }
-a{
+li a{
  
   color: bisque;
   text-align: center;
@@ -122,4 +122,33 @@ font-size: smaller;
 button{
     background-color: burlywood;
     color: #fbf8f8;
+}
+
+
+/*table*/
+table, th, td {
+    border:1px solid black;
+    text-align: center;
+  }
+.sell-table{
+
+}
+table{
+    margin-top: 200px;
+    margin-left: 20px;
+   
+}
+.totalbox{
+    float: right;
+    margin-right: 100px;
+    margin-top: 7px;
+    display: inline;
+  
+    height: 50px;
+    text-align: start;
+}
+.totalcard{
+    margin-left: 10px;
+    font-size: larger;
+    border: 1px solid red;
 }

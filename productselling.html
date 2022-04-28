@@ -1,134 +1,279 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Page Title</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='productselling.css'>
-    <script src='productselling.js'></script>
-</head>
-<body>
-    <div class="card"> 
-        <div class="logo-section">
-         <img src="C:\Users\User\Desktop\billing software\core pages\icons\leonlogo.png">
-            <h3 class="addressbox">LEON SOLAR AGENSIES</h3>
-            <p>Anchumaramkala po</p>
-            <p>pin:695505</p>
-          
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="productselling.css"
+    />
+    <script src="productselling.js"></script>
+  </head>
+  <body>
+    <div class="card">
+      <div class="logo-section">
+        <img
+          src="C:\Users\User\Desktop\billing software\core pages\icons\leonlogo.png"
+        />
+        <h3 class="addressbox">LEON SOLAR AGENSIES</h3>
+        <p>Anchumaramkala po</p>
+        <p>pin:695505</p>
+      </div>
+      <div class="nav-section">
+        <ul>
+          <li>
+            <a href="#" style="background-color: black; font-size: medium"
+              >Home</a
+            >
+          </li>
+          <li><a>Reports</a></li>
+
+          <li><a>Help</a></li>
+          <li><a>role</a></li>
+
+          <li><a>privileage</a></li>
+          <li><a>Settings</a></li>
+          <li><a>Logout</a></li>
+        </ul>
+      </div>
+      <!--sell-->
+      <div class="sell-heading">
+        <h3>PRODUCT SELL</h3>
+        <p>Select product</p>
+        <p class="qty">quantity</p>
+
+        <form autocomplete="off" action="/action_page.php">
+          <div class="autocomplete">
+            <input
+              id="myInput"
+              type="text"
+              name="myCountry"
+              placeholder="product name"
+            />
+
+            <input
+              type="number"
+              id="quantity"
+              name="quantity"
+              min="1"
+              max="1000"
+            />
+
+            <button>add</button>
+          </div>
+        </form>
+      </div>
+      <!--table-->
+      <div class="sell-table">
+        <table style="width: 90%">
+          <tr>
+            <th>Prodduct</th>
+            <th>quantity</th>
+            <th>Price</th>
+            <th>Discount</th>
+
+            <th>GST</th>
+            <th>Total</th>
+          </tr>
+          <tr>
+            <td>Solar Garden Lights</td>
+            <td>
+              2<button style="font-size: 20px">
+                <i class="fa fa-edit"></i>
+              </button>
+            </td>
+            <td>8700.00</td>
+            <td>
+              70.00<button style="font-size: 20px">
+                <i class="fa fa-edit"></i>
+              </button>
+            </td>
+            <td>300.00</td>
+            <td>8930.00</td>
+            <td>
+              <button style="font-size: 20px">
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>Solar Garden Lights</td>
+            <td>
+              2<button style="font-size: 20px">
+                <i class="fa fa-edit"></i>
+              </button>
+            </td>
+            <td>8700.00</td>
+            <td>
+              70.00<button style="font-size: 20px">
+                <i class="fa fa-edit"></i>
+              </button>
+            </td>
+            <td>300.00</td>
+            <td>8930.00</td>
+            <td>
+              <button style="font-size: 20px">
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>Solar Garden Lights</td>
+            <td>
+              2<button style="font-size: 20px">
+                <i class="fa fa-edit"></i>
+              </button>
+            </td>
+            <td>8700.00</td>
+            <td>
+              70.00<button style="font-size: 20px">
+                <i class="fa fa-edit"></i>
+              </button>
+            </td>
+            <td>300.00</td>
+            <td>8930.00</td>
+            <td>
+              <button style="font-size: 20px">
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>Solar Garden Lights</td>
+            <td>
+              2<button style="font-size: 20px">
+                <i class="fa fa-edit"></i>
+              </button>
+            </td>
+            <td>8700.00</td>
+            <td>
+              70.00<button style="font-size: 20px">
+                <i class="fa fa-edit"></i>
+              </button>
+            </td>
+            <td>300.00</td>
+            <td>8930.00</td>
+            <td>
+              <button style="font-size: 20px">
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>Solar Garden Lights</td>
+            <td>
+              2<button style="font-size: 20px">
+                <i class="fa fa-edit"></i>
+              </button>
+            </td>
+            <td>8700.00</td>
+            <td>
+              70.00<button style="font-size: 20px">
+                <i class="fa fa-edit"></i>
+              </button>
+            </td>
+            <td>300.00</td>
+            <td>8930.00</td>
+            <td>
+              <button style="font-size: 20px">
+                <i class="fa fa-trash-o"></i>
+              </button>
+            </td>
+          </tr>
+        </table>
+        <div class="totalbox">
+          <h3>GRAND TOTAL<a class="totalcard">Rs-8930.00</a></h3>
+         
+           
+         
         </div>
- <div class="nav-section">
-     <ul>
-         <li>
-             <a href="#" style="background-color: black; font-size: medium;">Home</a></li>
-         <li><a>Reports</a></li>
-       
-         <li><a>Help</a></li>
-         <li><a>role</a></li>
-        
-         <li><a>privileage</a></li>
-         <li><a>Settings</a></li>
-         <li><a>Logout</a></li>
-     </ul>
- </div>
-<!--sell-->
-<div class="sell-heading">
-    <h3>PRODUCT SELL</h3>
-<p>Select product</p>
-<p class="qty">quantity</p>
+      
 
-<form autocomplete="off" action="/action_page.php">
-    <div class="autocomplete" >
-      <input id="myInput" type="text" name="myCountry" placeholder="product name">
-     
-    
-  <input type="number" id="quantity" name="quantity" min="1" max="1000">
-  
-      <button>add</button>
+      <div class="footer"><p>copyright company LTD</p></div>
     </div>
-   
-  </form>
-</div>
-
-
-
-
-
-
-
-
-
- <div class="footer"><p>copyright company LTD</p></div>
-    </div>
-</body>
-<script>
+  </body>
+  <script>
     function autocomplete(inp, arr) {
       /*the autocomplete function takes two arguments,
       the text field element and an array of possible autocompleted values:*/
       var currentFocus;
       /*execute a function when someone writes in the text field:*/
-      inp.addEventListener("input", function(e) {
-          var a, b, i, val = this.value;
-          /*close any already open lists of autocompleted values*/
-          closeAllLists();
-          if (!val) { return false;}
-          currentFocus = -1;
-          /*create a DIV element that will contain the items (values):*/
-          a = document.createElement("DIV");
-          a.setAttribute("id", this.id + "autocomplete-list");
-          a.setAttribute("class", "autocomplete-items");
-          /*append the DIV element as a child of the autocomplete container:*/
-          this.parentNode.appendChild(a);
-          /*for each item in the array...*/
-          for (i = 0; i < arr.length; i++) {
-            /*check if the item starts with the same letters as the text field value:*/
-            if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
-              /*create a DIV element for each matching element:*/
-              b = document.createElement("DIV");
-              /*make the matching letters bold:*/
-              b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
-              b.innerHTML += arr[i].substr(val.length);
-              /*insert a input field that will hold the current array item's value:*/
-              b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
-              /*execute a function when someone clicks on the item value (DIV element):*/
-              b.addEventListener("click", function(e) {
-                  /*insert the value for the autocomplete text field:*/
-                  inp.value = this.getElementsByTagName("input")[0].value;
-                  /*close the list of autocompleted values,
+      inp.addEventListener("input", function (e) {
+        var a,
+          b,
+          i,
+          val = this.value;
+        /*close any already open lists of autocompleted values*/
+        closeAllLists();
+        if (!val) {
+          return false;
+        }
+        currentFocus = -1;
+        /*create a DIV element that will contain the items (values):*/
+        a = document.createElement("DIV");
+        a.setAttribute("id", this.id + "autocomplete-list");
+        a.setAttribute("class", "autocomplete-items");
+        /*append the DIV element as a child of the autocomplete container:*/
+        this.parentNode.appendChild(a);
+        /*for each item in the array...*/
+        for (i = 0; i < arr.length; i++) {
+          /*check if the item starts with the same letters as the text field value:*/
+          if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+            /*create a DIV element for each matching element:*/
+            b = document.createElement("DIV");
+            /*make the matching letters bold:*/
+            b.innerHTML =
+              "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+            b.innerHTML += arr[i].substr(val.length);
+            /*insert a input field that will hold the current array item's value:*/
+            b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+            /*execute a function when someone clicks on the item value (DIV element):*/
+            b.addEventListener("click", function (e) {
+              /*insert the value for the autocomplete text field:*/
+              inp.value = this.getElementsByTagName("input")[0].value;
+              /*close the list of autocompleted values,
                   (or any other open lists of autocompleted values:*/
-                  closeAllLists();
-              });
-              a.appendChild(b);
-            }
+              closeAllLists();
+            });
+            a.appendChild(b);
           }
+        }
       });
       /*execute a function presses a key on the keyboard:*/
-      inp.addEventListener("keydown", function(e) {
-          var x = document.getElementById(this.id + "autocomplete-list");
-          if (x) x = x.getElementsByTagName("div");
-          if (e.keyCode == 40) {
-            /*If the arrow DOWN key is pressed,
+      inp.addEventListener("keydown", function (e) {
+        var x = document.getElementById(this.id + "autocomplete-list");
+        if (x) x = x.getElementsByTagName("div");
+        if (e.keyCode == 40) {
+          /*If the arrow DOWN key is pressed,
             increase the currentFocus variable:*/
-            currentFocus++;
-            /*and and make the current item more visible:*/
-            addActive(x);
-          } else if (e.keyCode == 38) { //up
-            /*If the arrow UP key is pressed,
+          currentFocus++;
+          /*and and make the current item more visible:*/
+          addActive(x);
+        } else if (e.keyCode == 38) {
+          //up
+          /*If the arrow UP key is pressed,
             decrease the currentFocus variable:*/
-            currentFocus--;
-            /*and and make the current item more visible:*/
-            addActive(x);
-          } else if (e.keyCode == 13) {
-            /*If the ENTER key is pressed, prevent the form from being submitted,*/
-            e.preventDefault();
-            if (currentFocus > -1) {
-              /*and simulate a click on the "active" item:*/
-              if (x) x[currentFocus].click();
-            }
+          currentFocus--;
+          /*and and make the current item more visible:*/
+          addActive(x);
+        } else if (e.keyCode == 13) {
+          /*If the ENTER key is pressed, prevent the form from being submitted,*/
+          e.preventDefault();
+          if (currentFocus > -1) {
+            /*and simulate a click on the "active" item:*/
+            if (x) x[currentFocus].click();
           }
+        }
       });
       function addActive(x) {
         /*a function to classify an item as "active":*/
@@ -136,7 +281,7 @@
         /*start by removing the "active" class on all items:*/
         removeActive(x);
         if (currentFocus >= x.length) currentFocus = 0;
-        if (currentFocus < 0) currentFocus = (x.length - 1);
+        if (currentFocus < 0) currentFocus = x.length - 1;
         /*add class "autocomplete-active":*/
         x[currentFocus].classList.add("autocomplete-active");
       }
@@ -158,14 +303,31 @@
       }
       /*execute a function when someone clicks in the document:*/
       document.addEventListener("click", function (e) {
-          closeAllLists(e.target);
+        closeAllLists(e.target);
       });
     }
-    
+
     /*An array containing all the country names in the world:*/
-    var countries = ["Hykon Solar Water Heater","Off Grid Solar System","On Grid Solar System","Solar Garden Lights","Solar Outdoor Lamps","Solar Water Pump","Solar Surface Water Pump","Solar Submersible Water Pump","Solar Water Heater","FPC Solar Water Heater","ETC Solar Water Heater","1 Ton Solar AC","1.5 Ton Solar AC","Solar Panel","Solar Inverter","Solar Battery"];
-    
+    var countries = [
+      "Hykon Solar Water Heater",
+      "Off Grid Solar System",
+      "On Grid Solar System",
+      "Solar Garden Lights",
+      "Solar Outdoor Lamps",
+      "Solar Water Pump",
+      "Solar Surface Water Pump",
+      "Solar Submersible Water Pump",
+      "Solar Water Heater",
+      "FPC Solar Water Heater",
+      "ETC Solar Water Heater",
+      "1 Ton Solar AC",
+      "1.5 Ton Solar AC",
+      "Solar Panel",
+      "Solar Inverter",
+      "Solar Battery",
+    ];
+
     /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
     autocomplete(document.getElementById("myInput"), countries);
-    </script>
+  </script>
 </html>
